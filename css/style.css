@@ -1,0 +1,92 @@
+/* Cor do plano de fundo */
+body {
+    background-color: #fff0cc; /* Cor clara */
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    position: fixed; /* Fixa o header no topo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff9801;
+}
+
+.header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.header nav ul li a {
+    color: #400032;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    text-align: center;
+    height: 300px;  /* Altura da div */
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+
+.banner #banner {
+    max-height: 140%;  /* Para a imagem não ultrapassar os limites da div */
+    height: auto;
+}
+
+.texto {
+    margin: 100px;
+}
+
+h1, h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+p, ul, table {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
