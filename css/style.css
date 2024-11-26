@@ -54,6 +54,10 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
+p {
+    text-align: justify;
+}
+
 p, ul, table {
     font-size: 1.1em;
     line-height: 1.6;
